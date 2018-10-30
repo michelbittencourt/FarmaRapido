@@ -12,18 +12,18 @@
 
 <ion-content>
   <ion-slides #slidehome (ionSlideDidChange)="slideChanged()" style="height:30%">
-    <ion-slide class="slide1">
+    <ion-slide class="slide2">
     </ion-slide>
     <ion-slide class="slide2">
     </ion-slide>
-    <ion-slide class="slide3">
+    <ion-slide class="slide2">
     </ion-slide>
   </ion-slides>
-  <div style="overflow-y:auto; margin-bottom:auto; margin-top:auto">
+  <div style="overflow-y:auto; margin-bottom:auto; margin-top:auto; height: 70%">
     <ion-grid align-items-center>
       <ion-row>
         <ion-col col-12>
-          <ion-item style="background-color:#f4f4f4; margin-top:5%">
+          <ion-item style="background-color:#f4f4f4; margin-top:5%" no-lines>
             <ion-input placeholder="Escreva aqui o nome do medicamento" [(ngModel)]="remedio"></ion-input>
           </ion-item>
         </ion-col>
@@ -37,15 +37,15 @@
         </ion-col>
       </ion-row>
     </ion-grid>
-    <ion-grid style="margin-top:25%; background-color:#f4f4f4">
-      <ion-row>
-        <ion-col col-4>
+    <ion-grid style="position: absolute; bottom: 0; background-color:#f4f4f4; width: 100%">
+      <ion-row align-items-center justify-content-center>
+        <ion-col col-4 align-self-center>
           <button ion-button class="precos" (click)="precos()"></button>
         </ion-col>
-        <ion-col col-4>
+        <ion-col col-4 align-self-center>
           <button ion-button class="farmacias" (click)="farmacias()"></button>
         </ion-col>
-        <ion-col col-4>
+        <ion-col col-4 align-self-center>
           <button ion-button class="pedidos" (click)="pedidos()"></button>
         </ion-col>
       </ion-row>

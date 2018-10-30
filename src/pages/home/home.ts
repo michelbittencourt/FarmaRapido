@@ -29,10 +29,10 @@ export class HomePage {
     // this.slideChanged()
   }
 
-  slideChanged() {
-    this.slides.slideNext(8000)
-    this.slides.loop = true;
-  }
+  // slideChanged() {
+  //   this.slides.slideNext(1000)
+  //   this.slides.loop = true;
+  // }
 
   buscar() {
     localStorage.setItem("Medicamento", this.remedio)
