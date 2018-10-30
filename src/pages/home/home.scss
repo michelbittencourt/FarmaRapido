@@ -1,0 +1,93 @@
+page-home {
+
+    .imagemTitulo {
+        background: url("../img/FarmaRapido3.png") center center no-repeat;
+        background-size: 80% 80%;
+        width: 200px;
+        height: 50px; 
+    }
+    .imgFarma {
+        background: url("../img/FarmaRapido2.png") center center no-repeat;
+        background-size: 80% 80%;
+        width: 200px;
+        height: 50px; 
+    }
+
+    .slide1 {
+        background: url("../img/slide1.png") center center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 120px; 
+    }
+    .slide2 {
+        background: url("../img/slide2.png") center center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 120px;   
+    }
+    .slide3 {
+        background: url("../img/slide3.png") center center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 120px; 
+    }
+
+    .buscar {
+        background-color:#f52626;
+    }
+
+    .buscar:active {
+        background-color:rgb(97, 3, 3)
+    }
+
+    .precos {
+        background: url("../img/precos.png") center center no-repeat;
+        background-size: 100% 100%;
+        background-color:#f52626; 
+        width:100px; 
+        height:100px; 
+        border-radius:20px
+    }
+    .precos:active {
+        background: url("../img/precos.png") center center no-repeat;
+        background-size: 100% 100%;
+        background-color:rgb(97, 3, 3); 
+        width:100px; 
+        height:100px; 
+        border-radius:20px
+    }
+
+    .farmacias {
+        background: url("../img/farmacias.png") center center no-repeat;
+        background-size: 100% 100%;
+        background-color:#f52626; 
+        width:100px; 
+        height:100px; 
+        border-radius:20px
+    }
+    .farmacias:active {
+        background: url("../img/farmacias.png") center center no-repeat;
+        background-size: 100% 100%;
+        background-color:rgb(97, 3, 3); 
+        width:100px; 
+        height:100px; 
+        border-radius:20px
+    }
+
+    .pedidos {
+        background: url("../img/pedidos.png") center center no-repeat;
+        background-size: 100% 100%;
+        background-color:#f52626; 
+        width:100px; 
+        height:100px; 
+        border-radius:20px
+    }
+    .pedidos:active {
+        background: url("../img/pedidos.png") center center no-repeat;
+        background-size: 100% 100%;
+        background-color:rgb(97, 3, 3); 
+        width:100px; 
+        height:100px; 
+        border-radius:20px
+    }
+}

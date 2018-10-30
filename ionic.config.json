@@ -1,0 +1,7 @@
+{
+  "name": "FarmaRapido",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
